@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "inventory-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "inventory-app"
+    }
+  },
+  "defaultProject": "inventory-app",
+  "cli": {
+    "analytics": "9bad11d9-035d-4132-806f-dd27abbcf28a"
+  }
 }
