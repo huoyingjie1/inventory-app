@@ -11,7 +11,7 @@ export class AppComponent {
   url:string; 
   constructor(){
       this.title = 'Hello';
-      this.imgUrl = './assets/imgs/ng-book2.png'
+      this.imgUrl = '/assets/imgs/ng-book2.png';
       this.url = 'https://www.baidu.com';
   }
   onBtnClicked(){
